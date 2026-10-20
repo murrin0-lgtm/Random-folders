@@ -17,6 +17,8 @@ CANDIDATES = {
     "B": dict(zip(HOLDINGS, [1, 0, 0, 55, 20, 15, 5, 4])),
     "C": dict(zip(HOLDINGS, [1, 1, 0, 70, 20, 0, 0, 8])),
     "D": dict(zip(HOLDINGS, [100, 0, 0, 0, 0, 0, 0, 0])),
+    # Meridian benchmark: 40% IG bonds and 60% global equities (Lab 14).
+    "E": dict(zip(HOLDINGS, [0, 0, 0, 60, 40, 0, 0, 0])),
 }
 RESERVE_SIZE = 100
 QUARTERLY_DISTRIBUTION = 0.75
