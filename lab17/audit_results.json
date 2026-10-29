@@ -1,0 +1,234 @@
+{
+  "download_date": "2026-10-29",
+  "count_start": "2020-01-01",
+  "training": {
+    "BAA": {
+      "known_date": "2026-09-01",
+      "known_value": 6.47,
+      "today_date": "2026-09-01",
+      "today_value": 6.47,
+      "later_count": 0,
+      "revised_count": 0,
+      "revised_dates": []
+    },
+    "FEDFUNDS": {
+      "known_date": "2026-09-01",
+      "known_value": 3.75,
+      "today_date": "2026-09-01",
+      "today_value": 3.75,
+      "later_count": 0,
+      "revised_count": 0,
+      "revised_dates": []
+    },
+    "DGS10": {
+      "known_date": "2026-10-02",
+      "known_value": 5.28,
+      "today_date": "2026-10-27",
+      "today_value": 4.99,
+      "later_count": 16,
+      "revised_count": 0,
+      "revised_dates": []
+    },
+    "MORTGAGE30US": {
+      "known_date": "2026-10-01",
+      "known_value": 7.28,
+      "today_date": "2026-10-29",
+      "today_value": 7.24,
+      "later_count": 4,
+      "revised_count": 0,
+      "revised_dates": []
+    }
+  },
+  "sources": [
+    {
+      "file": "data\\lab17\\BAA_today_2026-10-29.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAA",
+      "downloaded_at": "2026-10-29T19:41:18.670129+00:00",
+      "sha256": "b7d5b8db9147b97a2c974b8bfb78a37c465de7a96c2ff53dd9b48132d0b26a0a"
+    },
+    {
+      "file": "data\\lab17\\BAA_asof_2026-10-05.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=BAA&vintage_date=2026-10-05",
+      "downloaded_at": "2026-10-29T19:41:18.757054+00:00",
+      "sha256": "bfab45507e4cd92bc99a70f6c23cf8f5eb90c0125627867caf7417893d748588"
+    },
+    {
+      "file": "data\\lab17\\FEDFUNDS_today_2026-10-29.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=FEDFUNDS",
+      "downloaded_at": "2026-10-29T19:41:18.866731+00:00",
+      "sha256": "e81bdfd1b428f0ae72051c414c2931f6efac4ca94e3eb30552632dfc25906e9b"
+    },
+    {
+      "file": "data\\lab17\\FEDFUNDS_asof_2026-10-05.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=FEDFUNDS&vintage_date=2026-10-05",
+      "downloaded_at": "2026-10-29T19:41:19.216532+00:00",
+      "sha256": "1bc9a756f39837028a96d0c3eeae72c158789bd99137be7e8dddfcc5ccc41763"
+    },
+    {
+      "file": "data\\lab17\\DGS10_today_2026-10-29.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "downloaded_at": "2026-10-29T19:41:19.439657+00:00",
+      "sha256": "f7d417abfb82345884f09780702407907baf3f5aee867277bc86766fe9c683c5"
+    },
+    {
+      "file": "data\\lab17\\DGS10_asof_2026-10-05.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&vintage_date=2026-10-05",
+      "downloaded_at": "2026-10-29T19:41:20.729227+00:00",
+      "sha256": "e5167c63653d2df768caa04a892ee0ca92150fd59a11ce07a35befd34f27d523"
+    },
+    {
+      "file": "data\\lab17\\MORTGAGE30US_today_2026-10-29.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MORTGAGE30US",
+      "downloaded_at": "2026-10-29T19:41:20.971079+00:00",
+      "sha256": "016df284689957f7cf0221ac5a4094ebaea4983c1fd19493823493f2480d884a"
+    },
+    {
+      "file": "data\\lab17\\MORTGAGE30US_asof_2026-10-05.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=MORTGAGE30US&vintage_date=2026-10-05",
+      "downloaded_at": "2026-10-29T19:41:21.368911+00:00",
+      "sha256": "1fd45c0d5fa87922a4c09339418acb892840b230fbfae843cc0bdee0f1fa878c"
+    },
+    {
+      "file": "data\\lab17\\PAYEMS_today_2026-10-29.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PAYEMS",
+      "downloaded_at": "2026-10-29T19:41:21.625813+00:00",
+      "sha256": "1ad60ee195b9f5464c4be3143ec872755fb6533383f37aae894220a8edae2fcd"
+    },
+    {
+      "file": "data\\lab17\\PAYEMS_asof_2025-01-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=PAYEMS&vintage_date=2025-01-15",
+      "downloaded_at": "2026-10-29T19:41:22.665453+00:00",
+      "sha256": "d01bc02023a6638c04552c1aec11b3f8071caeff67c61ac06e1e36429e61906f"
+    },
+    {
+      "file": "data\\lab17\\DGS10_today_2026-10-29.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "downloaded_at": "2026-10-29T19:41:19.439657+00:00",
+      "sha256": "f7d417abfb82345884f09780702407907baf3f5aee867277bc86766fe9c683c5"
+    },
+    {
+      "file": "data\\lab17\\DGS10_asof_2026-09-30.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&vintage_date=2026-09-30",
+      "downloaded_at": "2026-10-29T19:41:23.567585+00:00",
+      "sha256": "9ca1aa45c8f4d12ca4b4ec3f072085e3ad2ff099e8124110cda2f87a84bbe4f0"
+    },
+    {
+      "file": "data\\lab17\\DGS10_today_2026-10-29.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "downloaded_at": "2026-10-29T19:41:19.439657+00:00",
+      "sha256": "f7d417abfb82345884f09780702407907baf3f5aee867277bc86766fe9c683c5"
+    },
+    {
+      "file": "data\\lab17\\DGS10_asof_2026-10-29.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS10&vintage_date=2026-10-29",
+      "downloaded_at": "2026-10-29T19:41:24.413552+00:00",
+      "sha256": "b537905303efc51a804c5a17fbb1143592307e687b6aa113aa8449d1e31478ce"
+    }
+  ],
+  "failures": [],
+  "payems": {
+    "known_date": "2024-12-01",
+    "known_value": 159536.0,
+    "today_date": "2026-09-01",
+    "today_value": 159044.0,
+    "later_count": 21,
+    "revised_count": 59,
+    "revised_dates": [
+      "2020-01-01",
+      "2020-02-01",
+      "2020-03-01",
+      "2020-04-01",
+      "2020-06-01",
+      "2020-07-01",
+      "2020-08-01",
+      "2020-09-01",
+      "2020-10-01",
+      "2020-11-01",
+      "2020-12-01",
+      "2021-01-01",
+      "2021-02-01",
+      "2021-03-01",
+      "2021-04-01",
+      "2021-05-01",
+      "2021-06-01",
+      "2021-07-01",
+      "2021-08-01",
+      "2021-09-01",
+      "2021-10-01",
+      "2021-11-01",
+      "2021-12-01",
+      "2022-01-01",
+      "2022-02-01",
+      "2022-03-01",
+      "2022-04-01",
+      "2022-05-01",
+      "2022-06-01",
+      "2022-07-01",
+      "2022-08-01",
+      "2022-09-01",
+      "2022-10-01",
+      "2022-11-01",
+      "2022-12-01",
+      "2023-01-01",
+      "2023-02-01",
+      "2023-03-01",
+      "2023-04-01",
+      "2023-05-01",
+      "2023-06-01",
+      "2023-07-01",
+      "2023-08-01",
+      "2023-09-01",
+      "2023-10-01",
+      "2023-11-01",
+      "2023-12-01",
+      "2024-01-01",
+      "2024-02-01",
+      "2024-03-01",
+      "2024-04-01",
+      "2024-05-01",
+      "2024-06-01",
+      "2024-07-01",
+      "2024-08-01",
+      "2024-09-01",
+      "2024-10-01",
+      "2024-11-01",
+      "2024-12-01"
+    ],
+    "december_2024_then": 159536.0,
+    "december_2024_today": 158316.0
+  },
+  "dgs10": {
+    "last_month_end": {
+      "known_date": "2026-09-29",
+      "known_value": 5.26,
+      "today_date": "2026-10-27",
+      "today_value": 4.99,
+      "later_count": 19,
+      "revised_count": 0,
+      "revised_dates": []
+    },
+    "today": {
+      "known_date": "2026-10-27",
+      "known_value": 4.99,
+      "today_date": "2026-10-27",
+      "today_value": 4.99,
+      "later_count": 0,
+      "revised_count": 0,
+      "revised_dates": []
+    },
+    "three_source_checks": [
+      {
+        "date": "2026-10-27",
+        "value": 4.99
+      },
+      {
+        "date": "2026-10-26",
+        "value": 5.0
+      },
+      {
+        "date": "2026-10-23",
+        "value": 5.0
+      }
+    ]
+  }
+}
